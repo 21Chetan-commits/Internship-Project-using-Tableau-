@@ -1,124 +1,79 @@
-# Internship-Project-using-Tableau-
-Internship project 
-✅ GST Sales Analytics Dashboard – FY 2025–26
+📊 GST Sales Analytics Dashboard (FY 2025–26)
 
-<img width="1440" height="900" alt="Nagshetty Dadge GST sales Dashboard " src="https://github.com/user-attachments/assets/1b757aff-f5b1-4e1e-be58-87a74553cc00" />
+📌 Project Overview
 
-Dashboard Objective
+This project is an interactive GST Sales Analytics Dashboard built using Tableau to analyze sales performance and GST liability for FY 2025–26.
 
-To provide a complete overview of sales performance and GST liability for FY 2025–26, enabling quick monitoring of revenue, tax compliance, and customer contribution.
+The dashboard helps visualize taxable sales, GST breakup, monthly trends, and top customers in a single, easy-to-understand view.
 
 ⸻
 
-📊 Dashboard Components
+🎯 Objectives
+	•	Track total taxable sales and GST liability
+	•	Analyze month-wise sales performance
+	•	Monitor CGST, SGST, and IGST distribution
+	•	Identify top revenue-contributing customers
+	•	Support GST compliance and business decision-making
 
 ⸻
 
-1️⃣ Key Performance Indicators (KPIs)
+📊 Dashboard Features
 
-The dashboard displays the following KPIs at the top for quick summary:
-	•	Total Taxable Sales (₹)
-→ Total actual business revenue excluding GST.
-	•	Total GST Liability (₹)
-→ Overall GST payable for the selected period.
-	•	CGST Amount (₹)
-→ Central GST collected on intra-state sales.
-	•	SGST Amount (₹)
-→ State GST collected on intra-state sales.
-	•	IGST Amount (₹)
-→ Inter-state GST (shows 0 as all sales are intra-state).
+✅ Key KPIs
+	•	Total Taxable Sales
+	•	Total GST Liability
+	•	CGST, SGST & IGST Amounts
 	•	Invoice Count
-→ Total number of sales invoices generated.
-	•	Average Invoice Value (₹)
-→ Average sales value per invoice.
+	•	Average Invoice Value
 
 ⸻
 
-2️⃣ Monthly Taxable Sales Trend (Line Chart)
-
-Purpose:
-	•	Shows month-wise sales performance.
-
-Insights Provided:
-	•	Revenue trend across months.
-	•	Identification of peak and low-sales months.
-	•	Helps management track business growth or decline.
-
-Metric Used:
-	•	Taxable Value (actual sales, excluding GST).
+📈 Monthly Taxable Sales Trend
+	•	Line chart showing month-wise sales movement
+	•	Helps identify peak and low-performing months
 
 ⸻
 
-3️⃣ GST Breakup by Month (Stacked Bar Chart)
-
-Breakdown Includes:
-	•	CGST
-	•	SGST
-	•	IGST
-
-Purpose:
-	•	Visual representation of monthly GST liability.
-	•	Confirms correct GST calculation.
-	•	Highlights tax peaks by month.
-
-Key Insight:
-	•	IGST = 0 → indicates 100% intra-state transactions.
+🧾 GST Breakup by Month
+	•	Stacked bar chart of CGST, SGST, and IGST
+	•	Confirms tax distribution and GST calculation accuracy
+	•	Shows 100% intra-state transactions (IGST = 0)
 
 ⸻
 
-4️⃣ Top 10 Parties by Taxable Sales
-
-Purpose:
-	•	Identifies highest revenue-contributing customers.
-
-Insights Provided:
-	•	Top buyers by actual sales value.
-	•	Revenue concentration risk analysis.
-	•	Helps prioritize key clients.
-
-Metric Used:
-	•	Taxable Sales (not total value).
+🏢 Top 10 Parties by Taxable Sales
+	•	Ranks customers based on actual taxable sales
+	•	Highlights major revenue contributors
+	•	Useful for customer dependency analysis
 
 ⸻
 
-5️⃣ Interactive Filters
+🔍 Interactive Filters
+	•	Month filter
+	•	Party Name filter
 
-The dashboard supports dynamic filtering by:
-	•	Month
-	•	Party Name
-
-This allows the client to:
-	•	Analyze specific months.
-	•	Review individual customer performance.
-	•	Drill down into GST and sales data easily.
+Allows quick drill-down and focused analysis.
 
 ⸻
 
-🧠 Key Business Insights Available
-	•	✔ Month-wise revenue trend analysis
-	•	✔ GST liability tracking
-	•	✔ CGST vs SGST comparison
-	•	✔ Intra-state vs inter-state sales visibility
-	•	✔ Customer revenue contribution analysis
-	•	✔ Invoice volume and billing behavior
+🧠 Key Insights
+	•	Clear visibility of monthly revenue trends
+	•	Identification of GST liability peaks
+	•	Customer-wise sales contribution analysis
+	•	Confirmation of intra-state sales structure
+	•	Improved clarity for GST reporting and audits
 
 ⸻
 
-💼 Business Value to Client
-
-This dashboard helps the client:
-	•	Monitor GST compliance accurately
-	•	Track monthly sales performance
-	•	Identify peak revenue periods
-	•	Understand customer dependency
-	•	Support GST filing and audit preparation
-	•	Enable data-driven business decisions
+🛠 Tools & Technologies
+	•	Tableau Public / Tableau Desktop
+	•	Microsoft Excel (data source)
 
 ⸻
 
-🧾 Data Used
-	•	Invoice-level GST sales data
-	•	Fields include:
+📂 Dataset
+
+Invoice-level GST sales data containing:
 	•	Month
 	•	Party Name
 	•	Taxable Value
@@ -128,7 +83,9 @@ This dashboard helps the client:
 
 ⸻
 
-🛠️ Tool Used
-	•	Tableau Public / Tableau Desktop
+📸 Dashboard Preview
 
-⸻
+<img width="1440" height="900" alt="Nagshetty Dadge GST sales Dashboard " src="https://github.com/user-attachments/assets/1657705c-76ac-4ac6-8b01-1b518afd776a" />
+https://public.tableau.com/views/NagShettyDadgeGSTDashboard/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+
+
